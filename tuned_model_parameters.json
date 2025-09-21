@@ -1,0 +1,15 @@
+{
+  "epsilon_r": 6,
+  "baseline_distance": 2.0,
+  "stylus_area": 0.7,
+  "decay_constant": 3,
+  "skin_size": [
+    16.0,
+    16.0
+  ],
+  "electrode_size": [
+    5.0,
+    5.0
+  ],
+  "margin": 2.0
+}
