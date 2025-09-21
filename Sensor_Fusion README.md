@@ -87,18 +87,11 @@ Must contain:
 
 ## Technical Specifications
 
-### Sensing Capabilities
-- **Position Accuracy**: Sub-centimeter precision
-- **Force Range**: 0.001N to 10N+ 
-- **Sampling Rate**: Real-time capable
-- **Sensor Array**: 4-channel capacitive + single pressure
-
-
 ### Physics Models
 - **Capacitive Model**: 2D polynomial proximity factors
 - **Force Model**: Isothermal pressure-to-force conversion
 - **Material Properties**: Position-dependent elastic modulus
-- **SNR Analysis**: Signal quality assessmen
+- **SNR Analysis**: Signal quality assessment
 
 
 ### Modifying Visualization Parameters
@@ -129,6 +122,7 @@ sensor_area = (16, 16)   # cm - Sensor dimensions
 **Poor SNR Performance**:
 - Check sensor calibration and baseline correction
 - Verify proper shielding and grounding
+
 
 
 
